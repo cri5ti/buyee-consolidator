@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="26" fill="#14213d"/>
+  <circle cx="64" cy="60" r="44" fill="#e63946"/>
+  <circle cx="64" cy="60" r="44" fill="none" stroke="#fff" stroke-width="0"/>
+  <!-- parcels dropping in -->
+  <rect x="34" y="14" width="22" height="18" rx="3" fill="#fff" transform="rotate(-10 45 23)"/>
+  <rect x="62" y="8" width="18" height="16" rx="3" fill="#ffd166" transform="rotate(8 71 16)"/>
+  <rect x="82" y="22" width="16" height="14" rx="3" fill="#fff" transform="rotate(14 90 29)"/>
+  <!-- box -->
+  <path d="M20 54 L64 42 L108 54 L108 98 L64 112 L20 98 Z" fill="#c08a4f"/>
+  <path d="M20 54 L64 66 L64 112 L20 98 Z" fill="#a8743d"/>
+  <path d="M108 54 L64 66 L64 112 L108 98 Z" fill="#d9a066"/>
+  <path d="M20 54 L64 66 L108 54 L64 42 Z" fill="#5a3a1c"/>
+  <path d="M56 70 L72 70 L72 80 L64 84 L56 80 Z" fill="#f1d9b0" opacity="0.9"/>
+</svg>

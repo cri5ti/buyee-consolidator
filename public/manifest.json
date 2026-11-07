@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Buyee Consolidator",
+  "version": "0.1.0",
+  "description": "Reads your Buyee packages and plans consolidation boxes.",
+  "action": {
+    "default_title": "Open Buyee Consolidator",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://buyee.jp/*"
+  ],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
